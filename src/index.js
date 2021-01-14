@@ -1,3 +1,8 @@
 //Script de Frontend
-console.log("Hello Modern JS / EMG / Es2015");
-alert("Bienvenido al Programa");
+console.log("Modern JS Working!! Thanks Babel ...");
+let show = (message = "Saludo por defecto") => {
+    alert(message)
+}
+
+show()
+show("Mi saludo")
