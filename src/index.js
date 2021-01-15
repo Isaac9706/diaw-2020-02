@@ -1,8 +1,14 @@
-//Script de Frontend
-console.log("Modern JS Working!! Thanks Babel ...");
-let show = (message = "Saludo por defecto") => {
-    alert(message)
-}
+/* eslint-disable prettier/prettier */
+/* eslint-disable indent */
+/* eslint-disable eol-last */
+/* eslint-disable no-alert */
+/* eslint-disable no-console */
+// Script de Frontend
+console.log('Modern JS Working!! Thanks Babel ...');
 
-show()
-show("Mi saludo")
+const show = (message = 'Saludo por defecto') => {
+    alert(message);
+};
+
+show();
+show('Mi Saludo');
