@@ -5,7 +5,3 @@
 /* eslint-disable no-console */
 // Script de Frontend
 // Importar los estilos
-import 'materialize-css/dist/css/materialize.css';
-import dropdown from './helpers/dropdown';
-
-dropdown.init();
