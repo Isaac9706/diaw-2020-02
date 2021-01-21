@@ -6,6 +6,6 @@
 // Script de Frontend
 // Importar los estilos
 import 'materialize-css/dist/css/materialize.css';
-import initDropdown from './helpers/dropdowninit';
+import dropdown from './helpers/dropdown';
 
-initDropdown();
+dropdown.init();
